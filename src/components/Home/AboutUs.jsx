@@ -44,36 +44,48 @@ export const services = {
 
 const AboutUs = ({ classData }) => {
   return (
-    <div className="container px-5 mx-auto lg:px-0 pt-[64px] lg:w-[1000px]">
-      <div className={`${classData} mx-auto`}>
-        <p className="header-text font-bold md:text-center">
-          Trusted Care for Every Stage of Life
-        </p>
-        <p className="body-text sourcesans mx-auto md:text-center mt-5">
-          Whether you need daily support or occasional assistance, <br /> our
-          care services are designed to provide your family with <br />{" "}
-          dependable, nurturing care.
-        </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-20">
-        {Object.entries(services).map(([service, data]) => (
-          <div
-            key={service}
-            className="flex flex-col justify-between items-center bg-sub rounded-lg shadow-lg px-4 py-10 hover:shadow-xl transition-shadow duration-300"
-          >
-            <div className="flex items-center justify-center">
-              <div className="w-16 h-16 flex items-center justify-center rounded-3xl bg-pridark text-white">
-                <img src={data.icon} />
-              </div>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-[14px] font-semibold mb-5">{data.title}</h3>
-            </div>
-            <button className="bg-white open-sans truncate w-[200px] overflow-hidden text-primary text-sm font-bold px-4 py-4 rounded-full mt-4 hover:bg-primary hover:text-white transition-colors duration-300">
-              <p className="">Personalize Care Plan</p>
-            </button>
-          </div>
-        ))}
+    <div className="p-5 containers">
+      <h2 className="header-text">What our customer saying</h2>
+      <p className="body-text mb-10">
+        With satisfied feedback from our customers..
+      </p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 justify-between space-y-4 md:space-y-0">
+        <div className="bg-white shadow-md py-10 px-20 rounded-xl flex-1 mr-2">
+          <p className="mb-10">
+            This is a lifesaver! 🙌 It’s so user-friendly, even for someone like
+            me who isn’t super tech-savvy.
+          </p>
+          <p className="font-semibold mb-3">U Kyaw Soe</p>
+          <p className="text-gray-600">Naypyidaw Electronics</p>
+        </div>
+
+        <div className="bg-white shadow-md py-10 px-20 rounded-xl flex-1 mr-2">
+          <p className="mb-10">
+            This is a lifesaver! 🙌 It’s so user-friendly, even for someone like
+            me who isn’t super tech-savvy.
+          </p>
+          <p className="font-semibold mb-3">U Kyaw Soe</p>
+          <p className="text-gray-600">Naypyidaw Electronics</p>
+        </div>
+
+        <div className="bg-white shadow-md py-10 px-20 rounded-xl flex-1 mr-2">
+          <p className="mb-10">
+            This is a lifesaver! 🙌 It’s so user-friendly, even for someone like
+            me who isn’t super tech-savvy.
+          </p>
+          <p className="font-semibold mb-3">U Kyaw Soe</p>
+          <p className="text-gray-600">Naypyidaw Electronics</p>
+        </div>
+
+        <div className="bg-white shadow-md py-10 px-20 rounded-xl flex-1 mr-2">
+          <p className="mb-10">
+            This is a lifesaver! 🙌 It’s so user-friendly, even for someone like
+            me who isn’t super tech-savvy.
+          </p>
+          <p className="font-semibold mb-3">U Kyaw Soe</p>
+          <p className="text-gray-600">Naypyidaw Electronics</p>
+        </div>
       </div>
     </div>
   );

@@ -5,23 +5,19 @@ import CaregiverSection from "../components/Home/CaregiverSection";
 // import SimpleCareSolutions from "../components/Home/care/SimpleCareSoluutions";
 import Collaborate from "../components/Home/Collaborate";
 import HeroBanner from "../components/Home/HeroBanner";
-import Mission from "../components/Home/Mission";
+import LiveSalePlans from "../components/Home/LiveSalePlans";
 // import Steps from "../components/Home/StepPage";
 import Testmonial from "../components/Home/testmonial/Testmonial";
+import TrustedBySection from "../components/Home/TrustedBySection";
 
 function Home() {
   return (
     <div className=" mx-auto">
       <HeroBanner />
-      <AboutUs />
-      <Mission />
+      <TrustedBySection />
       <Collaborate />
-      {/* <Steps /> */}
-      <Testmonial />
-      <CaregiverSection />
-      <Accordion />
-      {/* <SimpleCareSolutions /> */}
-      {/* <Collaborate /> */}
+      <AboutUs />
+      <LiveSalePlans />
     </div>
   );
 }

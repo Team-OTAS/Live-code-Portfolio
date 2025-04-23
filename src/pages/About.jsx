@@ -9,13 +9,10 @@ import Testmonial from "../components/Home/testmonial/Testmonial";
 function About() {
   return (
     <div>
-      {/* <TeamSection /> */}
-      {/* <Collaborate /> */}
       <GoalsAndAspirations />
       <Testmonial />
       <CaregiverSection classData="bg-gradient-to-b from-white to-green-900" />
       <Accordion />
-      {/* <Footer classData="bg-footer" /> */}
     </div>
   );
 }

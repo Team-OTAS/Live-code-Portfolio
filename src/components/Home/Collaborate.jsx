@@ -18,34 +18,30 @@ function Number({ n }) {
 
 const Collaborate = () => {
   return (
-    <div className="mx-auto px-5 py-4 lg:px-0 lg:w-[1000px] sm:py-6 md:py-8 mt-1 sm:mt-2 md:mt-5">
-      <div className="mb-10 flex flex-col md:flex-row items-center justify-center bg-primary text-white rounded-lg md:shadow-lg md:py-10">
-        <div className="md:flex">
-          <div className="mb-4 md:mb-0 text-white py-5 md:px-10 md:p-0 rounded-3xl">
-            <h3 className="text-[16px] md:text-[12px] lg:text-[16px] font-semibold">
-              Registered Caregivers
-            </h3>
-            <p className="sm:text-[32px] md:text-[18px] lg:text-[32px] mt-2 font-bold">
-              {" "}
-              <Number n={60} />+ Caregivers
-            </p>
-          </div>
-          <div className="mb-4 md:mb-0 text-white py-5 md:px-10 md:p-0 rounded-3xl">
-            <h3 className="text-[18px] md:text-[11px] lg:text-[18px] font-bold">
-              Successful Served Duties
-            </h3>
-            <p className="sm:text-[32px] md:text-[18px] lg:text-[32px] mt-2 font-bold">
-              <Number n={200} />+ Duties
-            </p>
-          </div>
-          <div className="mb-4 md:mb-0 text-white py-5 md:px-10 md:p-0 rounded-3xl">
-            <h3 className="text-[18px] md:text-[12px] lg:text-[18px] font-bold">
-              Trusted by Families
-            </h3>
-            <p className="sm:text-[32px] md:text-[18px] lg:text-[32px] mt-2 font-bold">
-              <Number n={10} />+ Families
-            </p>
-          </div>
+    <div className="bg-[#303F9F] py-20 text-white p-5 text-center">
+      <blockquote className="mb-20 text-[36px] italic">
+        &quot; Live Easily, Sales Better without worries &quot;
+      </blockquote>
+      <div className="flex justify-around italic">
+        <div className="flex flex-col items-center">
+          <span className="text-[64px] font-bold">1.1 M</span>
+          <span className="mt-2 text-[32px]">
+            Customer <br /> Interaction
+          </span>
+        </div>
+        <div className="border-r border-dashed"></div>
+        <div className="flex flex-col items-center">
+          <span className="text-[64px] font-bold">5,651</span>
+          <span className="mt-2 text-[32px]">
+            Successful <br /> Orders
+          </span>
+        </div>
+        <div className="border-r border-dashed"></div>
+        <div className="flex flex-col items-center">
+          <span className="text-[64px] font-bold">13</span>
+          <span className="mt-2 text-[32px]">
+            Successful <br /> Business
+          </span>
         </div>
       </div>
     </div>
