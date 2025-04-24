@@ -15,8 +15,8 @@ export default {
         cardbody: ["14px"],
       },
       colors: {
-        primary: "#232323",
-        pridark: "#232323",
+        primary: "#5D4037",
+        pridark: "#5D4037",
         background: "#C3EAC6", // Custom primary color
         secondary: "#2EA14A", // Custom secondary color
         hihglight: "#154119",

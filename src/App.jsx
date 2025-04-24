@@ -28,9 +28,9 @@ function App() {
             <Route
               path="/"
               element={
-                <PageTransition>
-                  <Home />
-                </PageTransition>
+                // <PageTransition>
+                <Home />
+                // </PageTransition>
               }
             />
             <Route
