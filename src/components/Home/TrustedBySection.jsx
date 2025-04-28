@@ -35,7 +35,7 @@ const TrustedBySection = () => {
         />
       </div>
       <div className="mt-5 md:mt-0 md:ml-10 text-left w-1/2">
-        <h3 className="text-[32px] font-medium">
+        <h3 className="text-[32px] font-semibold text-primary">
           Trusted by many successful <br /> Online Live Sale Business
         </h3>
         <button className="button mt-4 text-primary">

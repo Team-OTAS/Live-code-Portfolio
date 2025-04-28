@@ -51,7 +51,7 @@ export default function LiveSalePlans() {
             ))}
           </ul>
           <button
-            className={`w-full work-sans text-[20px] py-2 mt-5 rounded-full text-sm font-semibold ${plans[0].buttonColor}`}
+            className={`w-full work-sans text-[20px] py-3 mt-5 rounded-xl text-sm font-semibold ${plans[0].buttonColor}`}
           >
             DISCUSS WITH US
           </button>
@@ -71,7 +71,7 @@ export default function LiveSalePlans() {
             ))}
           </ul>
           <button
-            className={`w-full work-sans text-[20px] py-2 mt-5 rounded-full text-sm font-semibold ${plans[1].buttonColor}`}
+            className={`w-full work-sans text-[20px] py-3 mt-5 rounded-xl text-sm font-semibold ${plans[1].buttonColor}`}
           >
             DISCUSS WITH US
           </button>

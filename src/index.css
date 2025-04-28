@@ -52,7 +52,7 @@ body {
 }
 
 .header-text {
-  @apply text-header md:text-[24px] lg:text-[64px] text-pridark;
+  @apply text-header md:text-[24px] lg:text-[64px] text-pridark font-semibold;
   color: "#232323";
   line-height: 1.1;
   font-family: "Work Sans";
@@ -76,7 +76,7 @@ body {
 }
 
 .button {
-  @apply border-2 border-primary work-sans text-[20px]  rounded-full px-6 py-2 font-bold hover:scale-105 transition-all duration-300;
+  @apply border-2 border-primary work-sans text-[20px]  rounded-xl px-6 py-2 font-bold hover:scale-105 transition-all duration-300;
 }
 
 /* styles.css */

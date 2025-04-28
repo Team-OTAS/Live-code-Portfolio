@@ -27,8 +27,8 @@ const Navbar = () => {
               to="/"
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-primary"
+                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-primary"
               }
             >
               Home
@@ -37,8 +37,8 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-primary"
+                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-primary"
               }
             >
               About Us
@@ -47,8 +47,8 @@ const Navbar = () => {
               to="/service"
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-primary"
+                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-primary"
               }
             >
               Services
@@ -57,8 +57,8 @@ const Navbar = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                  ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-primary"
+                  : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-primary"
               }
             >
               Contact Us
